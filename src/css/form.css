@@ -1,0 +1,34 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+.required {
+  color: red;
+}
+
+#description {
+  width: 70%;
+}
+
+#notes {
+  width: 70%;
+}
+
+#license {
+  width: 70%;
+}
+
+#latError {
+  color: red;
+  display: none;
+}
+
+#longError {
+  color: red;
+  display: none;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
